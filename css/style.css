@@ -4,6 +4,14 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Roboto Slab', serif;
+}
+
+.blue, .blue a {
+  color: #33475B
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -28,7 +36,13 @@
 .header-top {
   height: 70px;
   background-color: #F4F9FD;
-  border-bottom: 1px solid black
+  border-bottom: 1px solid black;
+  font-size: 15px;
+  font-weight: 500
+}
+
+.header-top .list li {
+  line-height: 70px
 }
 
 /* .header-top-left */
@@ -37,6 +51,13 @@
   float: left;
 }
 
+.header-top-left .list ul:first-child {
+  margin-right: 20px
+}
+
+/******
+ Non riesco a dare il bordo dopo English
+*******/
 /* .header-top-right */
 .header-top-right {
   width: 30%;
@@ -44,16 +65,68 @@
   text-align: right;
 }
 
+.header-top-right .list:first-child {
+  color: #00A5BE
+}
+
+.header-top-right .list li {
+  padding-right: 15px;
+}
+
+.header-top-right .list button {
+  padding: 7px;
+  border-radius: 4px;
+}
+
+.btn-half-orange {
+  background-color: #FAFCFE;
+  border: 1px solid #FE775A;
+  color: #FE775A;
+  font-family: inherit;
+  font-weight: inherit;
+}
+
+.btn-full-orange {
+  background-color: #FE775A;
+  color: #FAFCFE;
+  font-family: inherit;
+  font-weight: inherit;
+  border: 1px solid #FE775A;
+}
+
+.header-top-right button {}
+
 /* *** */
 /* header-center */
 .header-center {
   background-color: #FFFFFF;
-  height: 70px
+  height: 70px;
+  font-size: 15px;
+  font-weight: 500;
+  position: relative;
+}
+
+.header-center-left .logo {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.header-center .list li {
+  line-height: 70px;
+}
+
+.header-center-right>ul.list>li {
+  margin-right: 10px
 }
 
 .header-center-left {
   width: 15%;
   float: left;
+}
+
+.header-center .logo {
+  line-height: 70px;
 }
 
 .header-center-right {
