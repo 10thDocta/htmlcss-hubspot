@@ -26,7 +26,7 @@
 /* header */
 /* header-top */
 .header-top {
-  height: 90px;
+  height: 70px;
   background-color: #F4F9FD;
   border-bottom: 1px solid black
 }
@@ -41,9 +41,43 @@
 .header-top-right {
   width: 30%;
   float: right;
+  text-align: right;
 }
 
+/* *** */
+/* header-center */
+.header-center {
+  background-color: #FFFFFF;
+  height: 70px
+}
+
+.header-center-left {
+  width: 15%;
+  float: left;
+}
+
+.header-center-right {
+  width: 50%;
+  float: right;
+  text-align: right;
+}
+
+/* *** */
 /* header-bottom */
 .header-bottom {
-  background-color: #FFFFFF
+  background-color: #FFF2EE;
+  height: 600px;
+  background-image: url(../img/jumbotron.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* *** */
+/* header-bottom-big-div */
+.header-bottom-big-div {
+  height: 100px;
+  background-color: #AFEBE4;
+  border-top: 3px solid #33475B;
+  border-bottom: 3px solid #33475B;
 }
