@@ -9,3 +9,41 @@
   display: table;
   clear: both;
 }
+
+.container {
+  margin: 0 10%;
+}
+
+.list li {
+  display: inline-block;
+  list-style: none;
+}
+
+.list a {
+  text-decoration: none;
+}
+
+/* header */
+/* header-top */
+.header-top {
+  height: 90px;
+  background-color: #F4F9FD;
+  border-bottom: 1px solid black
+}
+
+/* .header-top-left */
+.header-top-left {
+  width: 30%;
+  float: left;
+}
+
+/* .header-top-right */
+.header-top-right {
+  width: 30%;
+  float: right;
+}
+
+/* header-bottom */
+.header-bottom {
+  background-color: #FFFFFF
+}
