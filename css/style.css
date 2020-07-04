@@ -8,8 +8,45 @@ body {
   font-family: 'Roboto Slab', serif;
 }
 
+button {
+  padding: 18px 27px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+/* stile per quandosi clicca il bottone */
+button:focus {
+  outline-color: #FE775A;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 900;
+}
+
+p {
+  line-height: 25px;
+  margin-top: 29px;
+}
+
 .blue, .blue a {
   color: #33475B
+}
+
+.btn-full-orange {
+  background-color: #FE775A;
+  color: #FAFCFE;
+  font-family: inherit;
+  font-weight: inherit;
+  border: 1px solid #FE775A;
+}
+
+.btn-full-orange:focus {
+  background-color: #FAFCFE;
+  color: #FE775A;
+  font-family: inherit;
+  font-weight: 900;
+  border: 1px solid #FE775A;
 }
 
 .clearfix::after {
@@ -56,7 +93,7 @@ body {
 }
 
 /******
- Non riesco a dare il bordo dopo English
+ Non riesco a dare il bordo dopo english
 *******/
 /* .header-top-right */
 .header-top-right {
@@ -73,9 +110,8 @@ body {
   padding-right: 15px;
 }
 
-.header-top-right .list button {
-  padding: 7px;
-  border-radius: 4px;
+.header-top-right li button {
+  padding: 10px;
 }
 
 .btn-half-orange {
@@ -85,16 +121,6 @@ body {
   font-family: inherit;
   font-weight: inherit;
 }
-
-.btn-full-orange {
-  background-color: #FE775A;
-  color: #FAFCFE;
-  font-family: inherit;
-  font-weight: inherit;
-  border: 1px solid #FE775A;
-}
-
-.header-top-right button {}
 
 /* *** */
 /* header-center */
@@ -137,20 +163,67 @@ body {
 
 /* *** */
 /* header-bottom */
+/* immagine di background */
 .header-bottom {
+  position: relative;
   background-color: #FFF2EE;
   height: 600px;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 50%;
+  background-size: contain;
+  background-position: 100% 50%;
+  padding-bottom: 700px;
+}
+
+.header-bottom .text-container {
+  width: 45%;
+  padding-top: 80px;
+}
+
+.header-bottom .text-container h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.header-bottom .text-container button {
+  margin-top: 30px;
+}
+
+.header-bottom .text-container p.small {
+  font-size: 13px
 }
 
 /* *** */
 /* header-bottom-big-div */
 .header-bottom-big-div {
+  position: absolute;
+  bottom: 0;
   height: 100px;
+  width: 100%;
   background-color: #AFEBE4;
   border-top: 3px solid #33475B;
   border-bottom: 3px solid #33475B;
+}
+
+/* *** */
+/* *** */
+/* main */
+/* main-top */
+.main-top {
+  height: 1000px;
+  background-color: #F4F9FD;
+}
+
+/* *** */
+/* top-row1 */
+.top-row1 {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  border: 2px solid red;
+  padding: 40px 0;
+}
+
+.top-row1 img {
+  width: 32%
 }
