@@ -283,6 +283,10 @@ p {
   height: 2px;
 }
 
+.top-row2-right .children li:last-child {
+  padding-right: 25px;
+}
+
 /* *** */
 /* top-row3 */
 .top-row3 {
