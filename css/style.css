@@ -404,25 +404,55 @@ p {
 }
 
 .main-bottom .row1 {
+  border: 2px solid blue;
+}
+
+.main-bottom .row1 .col1 {
   float: left;
   width: 30%;
 }
 
-.main-bottom .big-big-number {
+.main-bottom .row1 .big-big-number {
   font-size: 50px;
   font-weight: 900px;
 }
 
-.main-bottom .row2 {
+.main-bottom .row1 .col2 {
   float: left;
   width: 70%;
 }
 
-.main-bottom .row2 div {
+.main-bottom .row1 .col2 div {
   float: left;
   width: calc(100% / 4);
 }
 
-.main-bottom .row2 img {
+.main-bottom .row1 .col2 img {
   height: 20%;
+}
+
+/* *** */
+.main-bottom .row2 {
+  margin-top: 25px;
+  background-color: pink;
+  border: 2px solid green;
+}
+
+.main-bottom .row2 .col1 {
+  float: left;
+  width: 50%;
+}
+
+.main-bottom .row2 .col1 button {
+  margin-top: 40px;
+}
+
+.main-bottom .row2 .col2 {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.main-bottom .row2 .col2 img {
+  height: 300px;
 }
