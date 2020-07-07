@@ -94,7 +94,7 @@ p {
   font-weight: 500
 }
 
-.header-top .list>li {
+.header-top ul.list>li {
   line-height: 70px
 }
 
@@ -115,12 +115,19 @@ p {
   display: none;
   background-color: white;
   z-index: 1;
+  top: 57px;
+  left: 28px;
 }
 
-.header-top-left .list #drop-menu>li {
+.header-top .header-top-left ul.list li.lang-select #drop-menu>li {
   list-style: none;
-  line-height: 10px;
-  padding-left: 5px;
+  display: block;
+  line-height: 15px;
+  padding: 12px 25px;
+}
+
+.header-top .header-top-left ul.list li.lang-select #drop-menu>li:hover {
+  background-color: #F4F9FD
 }
 
 .header-top-left .list .drop-menu a {
