@@ -88,14 +88,13 @@ p {
 /* header */
 /* header-top */
 .header-top {
-  height: 70px;
   background-color: #F4F9FD;
   border-bottom: 1px solid black;
   font-size: 15px;
   font-weight: 500
 }
 
-.header-top .list li {
+.header-top .list>li {
   line-height: 70px
 }
 
@@ -105,8 +104,34 @@ p {
   float: left;
 }
 
-.header-top-left .list ul:first-child {
+.header-top-left .list>li:first-child {
+  position: relative;
   margin-right: 20px
+}
+
+/* dropdown menu */
+.header-top-left .list .drop-menu {
+  position: absolute;
+  display: none;
+  background-color: white;
+  z-index: 1;
+}
+
+.header-top-left .list #drop-menu>li {
+  list-style: none;
+  line-height: 10px;
+}
+
+.header-top-left .list .drop-menu a {
+  text-decoration: none;
+}
+
+.header-top-left .list .fa-chevron-down:hover {
+  cursor: pointer;
+}
+
+.header-top-left .list .lang-select:hover .drop-menu {
+  display: inline-block;
 }
 
 /******
