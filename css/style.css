@@ -475,6 +475,10 @@ footer {
   color: #CBD6E2
 }
 
+footer a:hover {
+  color: #7fd1de
+}
+
 .footer-top {
   padding-top: 50px;
 }
@@ -497,7 +501,10 @@ footer {
 
 .footer-top .col .list li a {
   display: block;
-  color: inherit;
+}
+
+.footer-top .col .list li.social-icon a {
+  display: inline-block;
 }
 
 .footer-top .col .list li i {
@@ -534,4 +541,29 @@ footer {
 
 .footer-center .list li {
   padding: 0 20px;
+}
+
+/* *** */
+/* footer-bottom */
+.footer-bottom {
+  padding-top: 40px;
+}
+
+.footer-bottom .col-left, .footer-bottom .col-right {
+  float: left;
+  width: 50%;
+}
+
+.footer-bottom .col-left p {
+  line-height: normal;
+  margin-top: 8px;
+  color: white;
+}
+
+.footer-bottom .col-right {
+  text-align: right;
+}
+
+.footer-bottom .col-right .list li:first-child {
+  padding-right: 30px;
 }
