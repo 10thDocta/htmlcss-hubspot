@@ -120,6 +120,7 @@ p {
 .header-top-left .list #drop-menu>li {
   list-style: none;
   line-height: 10px;
+  padding-left: 5px;
 }
 
 .header-top-left .list .drop-menu a {
