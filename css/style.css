@@ -191,8 +191,7 @@ ul li a {
 /* header-center */
 .header-center {
   position: relative;
-  z-index: 1;
-  top: 70px;
+  margin-top: 70px;
   background-color: #FFFFFF;
   height: 70px;
   font-size: 15px;
@@ -233,13 +232,11 @@ ul li a {
 /* immagine di background */
 .header-bottom {
   position: relative;
-  background-color: #FFF2EE;
   height: 600px;
   background-image: url(../img/jumbotron.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 100% 50%;
-  padding-bottom: 700px;
+  background-size: 100%;
+  padding-bottom: 678px;
 }
 
 .header-bottom .text-container {
@@ -366,6 +363,10 @@ ul li a {
 .top-row3>div>ul {
   margin-bottom: 45px;
   text-align: left;
+}
+
+.top-row3>div>ul li {
+  display: block;
 }
 
 .row3-left, .row3-center, .row3-right {
