@@ -65,6 +65,10 @@ p {
   padding-right: 8px;
 }
 
+.fa-chevron-down {
+  vertical-align: middle;
+}
+
 .list li {
   display: inline-block;
   list-style: none;
@@ -188,12 +192,8 @@ p {
   transform: translateY(-50%);
 }
 
-.header-center .list li {
+.header-center .list>li {
   line-height: 70px;
-}
-
-.header-center-right>ul.list>li {
-  margin-right: 10px
 }
 
 .header-center-left {
@@ -209,6 +209,10 @@ p {
   width: 50%;
   float: right;
   text-align: right;
+}
+
+.header-center-right>ul.list>li {
+  margin-right: 10px
 }
 
 /* *** */
