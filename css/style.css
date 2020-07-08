@@ -134,6 +134,10 @@ ul li a {
   left: 28px;
 }
 
+.header-top-left .lang-select:hover .drop-menu {
+  display: block;
+}
+
 .header-top-left ul li.lang-select #drop-menu>li {
   list-style: none;
   display: block;
@@ -151,10 +155,6 @@ ul li a {
 
 .header-top-left .fa-chevron-down:hover {
   cursor: pointer;
-}
-
-.header-top-left .lang-select:hover .drop-menu {
-  display: block;
 }
 
 /******
@@ -617,8 +617,8 @@ footer a:hover {
 /* bot */
 .bot {
   position: fixed;
-  bottom: 100px;
-  right: 40px;
+  bottom: 80px;
+  right: 30px;
   z-index: 1;
   width: 200px;
   height: 100px;
@@ -638,6 +638,10 @@ footer a:hover {
   transform: translate(-50%, -50%);
   width: 10px;
   cursor: pointer;
+}
+
+.bot i:hover {
+  color: red;
 }
 
 .bot img {
