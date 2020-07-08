@@ -611,3 +611,43 @@ footer a:hover {
 .footer-bottom .col-right li:first-child {
   padding-right: 30px;
 }
+
+/* *** */
+/* *** */
+/* bot */
+.bot {
+  position: fixed;
+  bottom: 100px;
+  right: 40px;
+  z-index: 1;
+  width: 200px;
+  height: 100px;
+  background: white;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.bot-container {
+  position: relative;
+}
+
+.bot i {
+  position: absolute;
+  top: -15px;
+  right: 5px;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  cursor: pointer;
+}
+
+.bot img {
+  position: absolute;
+  top: -56px;
+  right: 25%;
+  transform: translateX(-50%);
+  width: 50px;
+}
+
+.bot p {
+  padding: 0px 20px;
+}
